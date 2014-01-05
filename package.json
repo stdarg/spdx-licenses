@@ -1,6 +1,6 @@
 {
   "name": "spdx-licenses",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Has a list of all the valid SPDX licenses, and for a given id, will return the full name and if OSI approved.",
   "main": "index.js",
   "scripts": {

@@ -28,12 +28,11 @@ An exmaple license follows:
     var license = spdxLicenses.spdx(target);
 
     if (license) {
-        console.log('We are working with Software Package Data Exchange® version ',
-            spdxLicenses.version);
-        console.log('The full name for "LGPL-3.0+" is: '+
-            spdxLicenses.spdx('LGPL-3.0+').name);
+        console.log('We are working with the Software Package Data Exchange® '+
+            'list version: ', spdxLicenses.version);
+        console.log('The full name for "LGPL-3.0+" is: '+license.name);
 
-        if (spdxLicenses.spdx('LGPL-3.0+').OSIApproved)
+        if (license.OSIApproved)
             console.log('The license is OSDI approved.');
         else
             console.log('The license is not OSDI approved.');
@@ -44,7 +43,7 @@ An exmaple license follows:
 
 The above results in the following output:
 
-    We are working with Software Package Data Exchange® version  1.19
+    We are working with the Software Package Data Exchange® list version:  1.19
     The full name for "LGPL-3.0+" is: GNU Lesser General Public License v3.0 or later
     The license is OSDI approved.
 
