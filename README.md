@@ -50,7 +50,7 @@ The above results in the following output:
 
 ### version
 The version of the SPDX License List from https://spdx.org/licenses/ - This is 
-a literal string non-semver-compliant string, e.g. "1.19".
+a literal non-semver-compliant string, e.g. "1.19".
 
 ### spdx(id)
 Get info on a license for a given license id. And, if not a valid SPDX license
