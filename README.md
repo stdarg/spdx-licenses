@@ -33,9 +33,9 @@ An exmaple license follows:
         console.log('The full name for "LGPL-3.0+" is: '+license.name);
 
         if (license.OSIApproved)
-            console.log('The license is OSDI approved.');
+            console.log('The license is OSI approved.');
         else
-            console.log('The license is not OSDI approved.');
+            console.log('The license is not OSI approved.');
     } else {
         console.error('There is no such license as '+target);
     }
