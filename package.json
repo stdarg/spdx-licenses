@@ -4,7 +4,7 @@
   "description": "Has a list of all the valid SPDX licenses, and for a given id, will return the full name and if OSI approved.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter list test.js"
   },
   "repository": {
     "type": "git",
@@ -21,15 +21,12 @@
   "bugs": {
     "url": "https://github.com/stdarg/spdx-licenses/issues"
   },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter list test.js"
-  },
   "homepage": "https://github.com/stdarg/spdx-licenses",
   "dependencies": {
     "debug": "4.1.1",
-    "is2": "0.0.11"
+    "is2": "2.0.1"
   },
   "devDependencies": {
-    "mocha": "1.16.2"
+    "mocha": "6.0.2"
   }
 }
